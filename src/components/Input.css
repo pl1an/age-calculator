@@ -19,3 +19,6 @@ input {
     font-weight: bold;
     color: hsl(0, 0%, 28%);
 }
+input:focus {
+    outline: 1px solid hsl(259, 100%, 65%);
+}

@@ -7,8 +7,9 @@
     color: hsl(259, 100%, 65%);
     font-weight: bold;
     font-size: 8.5rem;
-    letter-spacing: 9px;
+    letter-spacing: 5px;
     font-style: italic;
+    margin-right: 10px;
 }
 .bottom-parts h2 {
     font-weight: bold;
