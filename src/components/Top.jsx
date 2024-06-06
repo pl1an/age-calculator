@@ -12,7 +12,11 @@ function Top({changefunction}){
             <Input name="MONTH" placeholder="MM"/>
             <Input name="YEAR" placeholder="YYYY"/>
         </div>
-        <div className='btn' onClick={() => changefunction(send_button())}><button>botao</button></div>
+        <div className='btn' onClick={() => changefunction(send_button())}>
+          <button>
+          <span className="material-icons">south</span>
+          </button>
+        </div>
     </div>
   )
 }
