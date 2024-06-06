@@ -22,3 +22,10 @@ input {
 input:focus {
     outline: 1px solid hsl(259, 100%, 65%);
 }
+h2 {
+    color: red;
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-top: 2px;
+    letter-spacing: 1px;
+}

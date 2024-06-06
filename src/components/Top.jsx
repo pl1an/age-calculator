@@ -8,9 +8,9 @@ function Top({changefunction}){
   return (
     <div className='top'>
         <div className='top-inputs'>
-            <Input name="DAY" placeholder="DD"/>
-            <Input name="MONTH" placeholder="MM"/>
-            <Input name="YEAR" placeholder="YYYY"/>
+            <Input name="DAY" placeholder="DD" childID="dia"/>
+            <Input name="MONTH" placeholder="MM" childID="mes"/>
+            <Input name="YEAR" placeholder="YYYY" childID="ano"/>
         </div>
         <div className='btn' onClick={() => changefunction(send_button())}>
           <button>

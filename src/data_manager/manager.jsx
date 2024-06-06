@@ -1,6 +1,7 @@
 // esse arquivo linka e transfere os dados necessários entre os componentes
 import { calculateTimeLived } from "../age_/calculateTimeLived";
 import { Bottom } from "../components/Bottom"
+import { Error } from "./error";
 
 // chama o cálculo da idade
 var timelived = {
@@ -9,6 +10,7 @@ var timelived = {
     days:"--"
 }
 export function send_button(){
+    Error(date_data.DAY, date_data.MONTH, date_data.YEAR);
     return calculateTimeLived(`${date_data.MONTH}/${date_data.DAY}/${date_data.YEAR}`)
 }
   
