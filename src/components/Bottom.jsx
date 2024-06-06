@@ -1,12 +1,12 @@
 import React from 'react'
 import BottomParts from './BottomParts'
 
-const Bottom = () => {
+export function Bottom({years, months, days}){
   return (
     <div className='bottom'>
-      <BottomParts name="years" number={"--"}/>
-      <BottomParts name="months" number={"--"}/>
-      <BottomParts name="days" number={"--"}/>
+      <BottomParts name="years" number={years}/>
+      <BottomParts name="months" number={months}/>
+      <BottomParts name="days" number={days}/>
     </div>
   )
 }

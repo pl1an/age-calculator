@@ -1,8 +1,10 @@
 import React from 'react'
 import Input from './Input'
 import './Top.css'
+import { send_button } from '../data_manager/manager'
 
-function Top() {
+
+function Top({changefunction}){
   return (
     <div className='top'>
         <div className='top-inputs'>
@@ -10,7 +12,7 @@ function Top() {
             <Input name="MONTH" placeholder="MM"/>
             <Input name="YEAR" placeholder="YYYY"/>
         </div>
-        <div className='btn'><button>botao</button></div>
+        <div className='btn' onClick={() => changefunction(send_button())}><button>botao</button></div>
     </div>
   )
 }

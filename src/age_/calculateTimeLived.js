@@ -3,7 +3,6 @@ export const calculateTimeLived = (birthDate) => {
   
     const currentDate = new Date();
     const birthDateObj = new Date(birthDate);
-  
     const result = (currentDate.getTime() - birthDateObj.getTime()) / 1000;
   
     if (result >= 0) {
