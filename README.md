@@ -26,7 +26,7 @@
 
 
 ## Autores
-- (pl1an)[https://github.com/pl1an]
-- (rafaelmagesty)[https://github.com/rafaelmagesty]
-- (BrunoSilva14)[https://github.com/BrunoSilva14]
-- (rodrigopierre)[https://github.com/rodrigopierre]
+- [pl1an](https://github.com/pl1an)
+- [rafaelmagesty](https://github.com/rafaelmagesty)
+- [BrunoSilva14](https://github.com/BrunoSilva14)
+- [rodrigopierre](https://github.com/rodrigopierre)
