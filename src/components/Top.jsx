@@ -10,7 +10,11 @@ function Top() {
             <Input name="MONTH" placeholder="MM"/>
             <Input name="YEAR" placeholder="YYYY"/>
         </div>
-        <div className='btn'><button>botao</button></div>
+        <div className='btn'>
+          <button>
+          <span className="material-icons">south</span>
+          </button>
+        </div>
     </div>
   )
 }

@@ -21,3 +21,7 @@ button {
     background-color: hsl(259, 100%, 65%);
     cursor: pointer;
 }
+.material-icons{
+    font-size: 50px;
+    color: white;
+}
