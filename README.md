@@ -1,8 +1,32 @@
-# React + Vite
+# Calculadora de Idades
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+### Os usuários devem ser capazes de:
+- Ver a idade em anos, meses e dias depois de enviar uma data valida pelo formulário
+- Receber erros de validação caso alguns critérios não sejam seguidos.
 
-Currently, two official plugins are available:
+### Critérios dos erros:
+- Qualquer formulário estiver vazio quando o botão de envio for pressionado.
+- O algarismo do dia não estiver entre 1-31.
+- O algarismo do mês não estiver entre 1-12.
+- Inserir uma data que está no futuro.
+- Inserir uma data inválida (ex: 31/02/2020).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Comportamento esperado
+- Três campos para inserir dia, mês e ano respectivamente;
+- Um ícone botão para envio da data inserida;
+- Três campos de texto na tela que atualizam conforme a data inserida.
+
+
+## Conteúdos abordados
+- HTML ( tags mais simples)
+- Formulário ( input, checked, onChange e value )
+- CSS ( alinhamento, posicionamento, disposição )
+- React : startar , JSX , useState e useEffect.
+
+
+## Autores
+- (pl1an)[https://github.com/pl1an]
+- (rafaelmagesty)[https://github.com/rafaelmagesty]
+- (BrunoSilva14)[https://github.com/BrunoSilva14]
+- (rodrigopierre)[https://github.com/rodrigopierre]
