@@ -11,7 +11,12 @@ export const calculateTimeLived = (birthDate) => {
       const days = Math.floor((result % 2629746) / 86400); // número de segundos em um dia
   
       return { years, months, days };
+    } else {
+      const years = '--';
+      const months = '--';
+      const days = '--';
+  
+      return { years, months, days };
     }
   
-    return null;
   };
