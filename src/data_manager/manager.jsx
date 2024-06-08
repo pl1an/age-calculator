@@ -10,8 +10,14 @@ var timelived = {
     days:"--"
 }
 export function send_button(){
-    Error(date_data.DAY, date_data.MONTH, date_data.YEAR);
-    return calculateTimeLived(`${date_data.MONTH}/${date_data.DAY}/${date_data.YEAR}`)
+    if(!Error(date_data.DAY, date_data.MONTH, date_data.YEAR)){
+        return calculateTimeLived(`${date_data.MONTH}/${date_data.DAY}/${date_data.YEAR}`)
+    }
+    else return {
+        years:"--",
+        months:"--",
+        days:"--"
+    }
 }
   
 // guarda os dados inseridos em cada input

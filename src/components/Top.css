@@ -28,3 +28,25 @@ button:hover {
     font-size: 50px;
     color: white;
 }
+
+@media (max-width: 590px){
+    .top{
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
+
+    .btn{
+        position: absolute;
+        top: 240px;
+        margin-top: 0px;
+        width: 70px;
+        height: 70px;
+        margin-left: 0px;
+        align-self: center;
+    }
+
+    .top-inputs{
+        width: 100%;
+    }
+}
